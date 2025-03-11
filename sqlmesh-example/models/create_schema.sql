@@ -1,2 +1,0 @@
-@model
-CREATE SCHEMA example

@@ -4,6 +4,7 @@ MODEL (
   cron '@daily',
   grain item_id,
   audits (assert_positive_order_ids),
+  description "Aggregates order count per item from the incremental model."
 );
 
 SELECT
