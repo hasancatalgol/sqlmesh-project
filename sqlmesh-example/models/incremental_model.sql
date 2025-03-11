@@ -5,7 +5,8 @@ MODEL (
   ),
   start '2020-01-01',
   cron '@daily',
-  grain (id, event_date)
+  grain (id, event_date),
+  description "<insert your link to the external documentation, ex: Google Drive, Dropbox etc...>"
 );
 
 SELECT

@@ -1,8 +1,0 @@
-2025-03-11 15:37:14,819 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for data files: {'db.db'} (connection.py:316)
-2025-03-11 15:37:16,637 - MainThread - sqlmesh.core.config.connection - INFO - Creating new DuckDB adapter for in-memory database (connection.py:318)
-2025-03-11 15:37:16,694 - MainThread - sqlmesh.core.config.connection - INFO - Using existing DuckDB adapter due to overlapping data file: db.db (connection.py:306)
-2025-03-11 15:37:18,688 - MainThread - sqlmesh.core.state_sync.db.migrator - INFO - Applying migration <module 'sqlmesh.migrations.v0001_init' from 'C:\\Users\\DEKA_TP666\\Desktop\\Belgeler\\sqlmesh\\.env\\Lib\\site-packages\\sqlmesh\\migrations\\v0001_init.py'> (migrator.py:177)
-2025-03-11 15:37:18,927 - MainThread - sqlmesh.core.engine_adapter.base - WARNING - Failed to create schema 'sqlmesh': IO Error: File is already open in 
-C:\Users\DEKA_TP666\AppData\Local\Programs\Python\Python312\python.exe (PID 2900) (base.py:1154)
-2025-03-11 15:37:19,117 - MainThread - sqlmesh.core.state_sync.db.migrator - INFO - Starting migration rollback. (migrator.py:135)
-2025-03-11 15:37:19,548 - MainThread - root - INFO - Shutting down the event dispatcher (dispatcher.py:159)
