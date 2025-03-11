@@ -1,0 +1,16 @@
+INSTALL PYTHON DEPENDENCIES AND SQLMESH
+pip install -r requirements.txt
+
+RUN VIRTUAL ENVIRONMENT
+.env\Scripts\activate
+
+
+cd sqlmesh-example
+
+
+CREATE SQLMESH PROJECT
+sqlmesh init duckdb
+
+RUN SQLMESH WEB SERVER
+sqlmesh ui
+
