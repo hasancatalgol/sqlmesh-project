@@ -1,0 +1,8 @@
+sqlmesh
+sqlmesh[web]
+sqlmesh[dbt]
+sqlmesh[github]
+sqlmesh[slack]
+sqlmesh[llm]
+
+pytest
